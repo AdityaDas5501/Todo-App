@@ -58,6 +58,7 @@ button{
     padding: 15px 10px;
     border-radius: 20px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .btn-add{
     background-color: green;
