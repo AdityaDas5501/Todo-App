@@ -43,5 +43,5 @@ function displayItems(){
 
 function showPopup(){
     document.querySelector(".pop-up").classList.add("pop-show");
-    setTimeout(function(){document.querySelector(".pop-up").classList.remove("pop-show");},2000);
+    setTimeout(()=>{document.querySelector(".pop-up").classList.remove("pop-show");},2000);
 }
