@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="heading">Todo App</h1>
+    <div class="main-area">
+        <div class="grid-area">
+            <input id='todo-input' type="text" placeholder="Enter TODO here">
+            <input id='todo-date' type="date">
+            <button class='btn-add' onclick="addTask(); 
+            displayItems();">Add</button>
+        </div>
+        <div id="display-canvas" class="grid-area"></div>
+    </div>
+    <div class="pop-up">!!Empty Field!!</div>
+    <script src="index.js"></script>
+</body>
+</html>
