@@ -23,6 +23,7 @@ body{
     font-size: 1.2rem;
     width: clamp(0px, 100vw, 1010px);
     margin: auto;
+    box-sizing: border-box;
     padding: 0 10px;
 }
 
